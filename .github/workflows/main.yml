@@ -1,4 +1,4 @@
-name: run main.py
+name: teleon main.py
 on:
   schedule:
     - cron: '0 * * * *'  # Her saat başı çalışır
