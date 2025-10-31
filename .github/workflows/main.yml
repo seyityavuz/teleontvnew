@@ -1,7 +1,7 @@
 name: run main.py
 on:
   schedule:
-    - cron: '0 */30 * * * *'  # Her dakikada bir Çalışır
+    - cron: '0 */10 * * *'  # Her dakikada bir Çalışır
   pull_request:
       branches:
         - main
