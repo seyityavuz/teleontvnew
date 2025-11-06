@@ -16,6 +16,11 @@
       "url": "https://kick.com/teleontv"
     },
     {
+      "name": "Nowtv",
+      "slug": "nowtv",
+      "url": "https://www.nowtv.com.tr/canli-yayin"
+    },
+    {
       "name": "Ahaber",
       "slug": "ahaber",
       "url": "https://www.ahaber.com.tr/video/canli-yayin"
