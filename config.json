@@ -16,6 +16,11 @@
       "url": "https://kick.com/teleontv"
     },
     {
+      "name": "CnnTurk",
+      "slug": "cnnturk",
+      "url": "https://www.cnnturk.com/canli-yayin"
+    },
+    {
       "name": "Ahaber",
       "slug": "ahaber",
       "url": "https://www.ahaber.com.tr/video/canli-yayin"
