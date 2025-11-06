@@ -16,11 +16,6 @@
       "url": "https://kick.com/teleontv"
     },
     {
-      "name": "Nowtv",
-      "slug": "nowtv",
-      "url": "https://nowtv-live-ad.ercdn.net/nowtv/nowtv_720p.m3u8?e="
-    },
-    {
       "name": "Ahaber",
       "slug": "ahaber",
       "url": "https://www.ahaber.com.tr/video/canli-yayin"
