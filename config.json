@@ -1,23 +1,24 @@
 {
-    "output": {
-        "folder": "streams",
-        "bestFolder": "best",
-        "masterFolder": ""
+  "output": {
+    "folder": "streams",
+    "bestFolder": "best",
+    "masterFolder": ""
+  },
+  "channels": [
+    {
+      "name": "Euro 90 TV",
+      "slug": "euro90tv",
+      "url": "https://www.twitch.tv/euro90tvglobal"
     },
-    "channels": [
-        {
-            "name": "Euro 90 TV",
-            "slug": "euro90tv",
-            "url": "https://www.twitch.tv/euro90tvglobal"  
-        },
-        {
-            "name": "Teleon",
-            "slug": "teleon",
-            "url": "https://kick.com/teleontv"
-        },
-         {
-            "name": "Teleon",
-            "slug": "teleon",
-            "url": "https://www.ahaber.com.tr/video/canli-yayin"
-    ]
+    {
+      "name": "Teleon",
+      "slug": "teleon",
+      "url": "https://kick.com/teleontv"
+    },
+    {
+      "name": "Ahaber",
+      "slug": "ahaber",
+      "url": "https://www.ahaber.com.tr/video/canli-yayin"
+    }
+  ]
 }
