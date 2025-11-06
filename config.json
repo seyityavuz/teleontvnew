@@ -18,7 +18,7 @@
     {
       "name": "CnnTurk",
       "slug": "cnnturk",
-      "url": "https://www.cnnturk.com/canli-yayin"
+      "url": "https://www.cnnturk.com/api/media?id=62d6814670380e2cdc7c124c)"
     },
     {
       "name": "Ahaber",
