@@ -11,11 +11,6 @@
       "url": "https://www.twitch.tv/euro90tvglobal"
     },
     {
-      "name": "Now TV",
-      "slug": "nowtv",
-      "url": "https://nowtv.daioncdn.net/nowtv/nowtv_720p.m3u8?ex=1762833035&st={i}"
-    },
-    {
       "name": "Teleon",
       "slug": "teleon",
       "url": "https://kick.com/teleontv"
