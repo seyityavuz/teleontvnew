@@ -1,4 +1,4 @@
-name: teleon main.py
+name: yavuznet main.py
 on:
   schedule:
     - cron: '0 * * * *'  # Her saat başı çalışır
