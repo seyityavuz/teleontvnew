@@ -11,6 +11,11 @@
       "url": "https://www.twitch.tv/euro90tvglobal"
     },
     {
+      "name": "Now TV",
+      "slug": "nowtv",
+      "url": "https://staging.nowtv.com.tr/canli-yayin"
+    },
+    {
       "name": "Teleon",
       "slug": "teleon",
       "url": "https://kick.com/teleontv"
