@@ -13,7 +13,7 @@
     {
       "name": "Now TV",
       "slug": "nowtv",
-      "url": "https://nowtv-live-ad.ercdn.net/nowtv/nowtv_720p.m3u8?e=1762865134&st={i}"
+      "url": "https://nowtv-live-ad.ercdn.net/nowtv/nowtv_720p.m3u8?e={i}&st={i}"
     },
     {
       "name": "Teleon",
