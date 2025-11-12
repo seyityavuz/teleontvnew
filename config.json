@@ -11,6 +11,16 @@
       "url": "https://www.twitch.tv/euro90tvglobal"
     },
     {
+       "name": "Başka TV [Kick]",
+       "slug": "baskatv-kick",
+       "url": "https://kick.com/baska-tv"
+     },
+     {
+       "name": "Bizim Bergama TV",
+       "slug": "bizimbergamatv",
+       "url": "https://www.twitch.tv/bizimbergama"
+    },
+    {
       "name": "Teleon",
       "slug": "teleon",
       "url": "https://kick.com/teleontv"
