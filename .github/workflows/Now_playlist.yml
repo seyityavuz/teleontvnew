@@ -27,5 +27,5 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add nowtv.m3u8
+          git add playlist.m3u8
           git diff --quiet && echo "Değişiklik yok, push atlanıyor." || (git commit -m "Playlist güncellendi" && git push)
