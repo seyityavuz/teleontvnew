@@ -30,31 +30,5 @@
       "slug": "teleon",
       "url": "https://kick.com/teleontv"
     }
-  ],
-  "providers": [
-    {
-      "name": "ParsaTV",
-      "slug": "parsatv",
-      "url": "https://www.parsatv.com/embed.php?name=CHANNEL_NAME",
-      "method": "GET",
-      "pattern": "file: \"(.*?)\",",
-      "expire_duration": "2H",
-      "mode": "variant",
-      "output_filter": "token",
-      "headers": {
-        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
-      },
-      "channels": [
-        {
-          "name": "Star-TV",
-          "variables": [
-            {
-              "name": "CHANNEL_NAME",
-              "value": "Star-TV"
-            }
-          ]
-        }
-      ]
-    }
   ]
 }
