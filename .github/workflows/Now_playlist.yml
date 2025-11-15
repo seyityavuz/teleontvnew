@@ -2,7 +2,7 @@ name: Now Playlist
 
 on:
   schedule:
-    - cron: '0 */6 * * *'  # Her 6 saatte bir
+    - cron: '0 */6 * * *'  # Her 6 saatte bir çalışır
   workflow_dispatch:
 
 jobs:
@@ -12,13 +12,13 @@ jobs:
       - name: Repo'yu klonla
         uses: actions/checkout@v3
 
-       - name: Gerekli Python paketlerini yükle
-         run: pip install requests
-
       - name: Python kurulumu
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
+
+      - name: Gerekli Python paketlerini yükle
+        run: pip install requests
 
       - name: Playlist dosyasını oluştur
         run: python generate_playlist.py
@@ -28,5 +28,4 @@ jobs:
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git add playlist.m3u8
-          git commit -m "Playlist güncellendi"
-          git push
+          git diff --quiet && echo "Değişiklik yok, push atlanıyor." || (git commit -m "Playlist güncellendi" && git push)
