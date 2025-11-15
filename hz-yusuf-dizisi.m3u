@@ -1,6 +1,6 @@
 #EXTM3U x-tvg-url="https://www.open-epg.com/files/turkey3.xml" | SON GÜNCELLENME 06.09.2025 byGKN
 
-#EXTINF:-1 tvg-name="hzyusuf" tvg-id="hzyusuf.tr" tvg-logo="KanalLogoUrl" group-title="SEZON1",HZ. YUSUF DİZİSİ BÖLÜM 1 (SD 480p VCD)
+#EXTINF:-1 tvg-name="hzyusuf" tvg-id="hzyusuf.tr" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSECkp21zlwT6ZSXN5nzN0zH5yfsDriZpyIwQ&s" group-title="SEZON1",HZ. YUSUF DİZİSİ BÖLÜM 1 (SD 480p VCD)
 https://vod02.cdn.web.tv/qe/an/qean4n2ls2u_,240,360,480,.mp4.urlset/playlist-f3-v1-a1.m3u8
 
 #EXTINF:-1 tvg-name="hzyusuf" tvg-id="hzyusuf.tr" tvg-logo="KanalLogoUrl" group-title="SEZON1",HZ. YUSUF DİZİSİ BÖLÜM 2 (SD 480p VCD)
