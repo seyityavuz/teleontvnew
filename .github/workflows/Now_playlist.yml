@@ -12,6 +12,9 @@ jobs:
       - name: Repo'yu klonla
         uses: actions/checkout@v3
 
+       - name: Gerekli Python paketlerini yükle
+         run: pip install requests
+
       - name: Python kurulumu
         uses: actions/setup-python@v4
         with:
