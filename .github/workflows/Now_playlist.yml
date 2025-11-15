@@ -20,6 +20,9 @@ jobs:
       - name: Gerekli Python paketlerini yükle
         run: pip install requests
 
+      - name: Gerekli Python paketlerini yükle
+        run: pip install requests beautifulsoup4
+
       - name: Playlist dosyasını oluştur
         run: python generate_playlist.py
 
