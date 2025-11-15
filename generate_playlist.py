@@ -4,7 +4,7 @@ import requests
 SOURCE_URL = "https://www.nowtv.com.tr/canli-yayin"
 PROXY_PREFIX = "http://tv.dsmart-go.workers.dev/?ID="
 OUTPUT_DIR = "streams"
-OUTPUT_FILE = "nowtv.m3u8"
+OUTPUT_FILE = "playlist.m3u8"
 
 def generate_proxy_link(source_url):
     return f"{PROXY_PREFIX}{source_url}"
