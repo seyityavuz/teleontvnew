@@ -11,48 +11,50 @@
       "url": "https://www.twitch.tv/euro90tvglobal"
     },
     {
-       "name": "Başka TV [Kick]",
-       "slug": "baskatv-kick",
-       "url": "https://kick.com/baska-tv"
-     },
-     {
-       "name": "Bizim Bergama TV",
-       "slug": "bizimbergamatv",
-       "url": "https://www.twitch.tv/bizimbergama"
-     },
-     {
-       "name": "Serhat TV",
-       "slug": "serhattv",
-       "url": "https://www.twitch.tv/serhattvlive"
+      "name": "Başka TV [Kick]",
+      "slug": "baskatv-kick",
+      "url": "https://kick.com/baska-tv"
+    },
+    {
+      "name": "Bizim Bergama TV",
+      "slug": "bizimbergamatv",
+      "url": "https://www.twitch.tv/bizimbergama"
+    },
+    {
+      "name": "Serhat TV",
+      "slug": "serhattv",
+      "url": "https://www.twitch.tv/serhattvlive"
     },
     {
       "name": "Teleon",
       "slug": "teleon",
       "url": "https://kick.com/teleontv"
-     }
-  ]
-}
-
-        "name": "ParsaTV",
-        "slug": "parsatv",
-        "url": "https://www.parsatv.com/embed.php?name=CHANNEL_NAME",
-        "method": "GET",
-        "pattern": "file: \"(.*?)\",",
-        "expire_duration": "2H",
-        "mode": "variant",
-        "output_filter": "token",
-        "headers": {
-            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
-        },
-        "channels": [
+    }
+  ],
+  "providers": [
+    {
+      "name": "ParsaTV",
+      "slug": "parsatv",
+      "url": "https://www.parsatv.com/embed.php?name=CHANNEL_NAME",
+      "method": "GET",
+      "pattern": "file: \"(.*?)\",",
+      "expire_duration": "2H",
+      "mode": "variant",
+      "output_filter": "token",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+      },
+      "channels": [
+        {
+          "name": "Star-TV",
+          "variables": [
             {
-                "name": "Star-TV",
-                "variables": [
-                    {
-                        "name": "CHANNEL_NAME",
-                        "value": "Star-TV"
-                    }
-                ]
-           }
+              "name": "CHANNEL_NAME",
+              "value": "Star-TV"
+            }
+          ]
+        }
       ]
+    }
+  ]
 }
