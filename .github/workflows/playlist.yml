@@ -19,7 +19,7 @@ jobs:
           php-version: '8.2'
 
       - name: Playlist üret
-        run: php playlist.php
+        run: php HDFilmCategori.php
 
       - name: Commit ve push playlist
         run: |
