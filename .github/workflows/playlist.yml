@@ -1,0 +1,30 @@
+name: Auto Playlist Generator
+
+on:
+  schedule:
+    - cron: "0 3 * * *"   # Her gün saat 03:00'te çalışır
+  workflow_dispatch:        # Manuel tetikleme için
+
+jobs:
+  generate-playlist:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Repo checkout
+        uses: actions/checkout@v4
+
+      - name: PHP kurulum
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.2'
+
+      - name: Playlist üret
+        run: php playlist.php
+
+      - name: Commit ve push playlist
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add streams/playlist.m3u
+          git commit -m "Auto-update playlist"
+          git push
