@@ -93,6 +93,14 @@ for ($page = 801; $page <= 925; $page++) {
     }
 }
 
+- name: Commit ve push playlist
+  run: |
+    git config --global user.name "github-actions[bot]"
+    git config --global user.email "github-actions[bot]@users.noreply.github.com"
+    git add streams/playlist.m3u
+    git commit -m "Auto-update playlist" || echo "No changes to commit"
+    git push https://x-access-token:${{ secrets.GITHUB_TOKEN }} HEAD:main
+
 $playlist = ob_get_clean();
 file_put_contents(__DIR__ . "/streams/playlist.m3u", $playlist);
 ?>
